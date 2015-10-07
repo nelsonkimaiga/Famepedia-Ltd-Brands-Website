@@ -1,48 +1,17 @@
-body{
-    margin: 0;
-    padding: 0;
-    width: 100%
+html {
+  position: relative;
+  min-height: 100%;
 }
-
-body, html{
-    width: 100%;
-    height:100%;
-}
-/* Responsive Full Background Image Using CSS
- * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
-*/
 body {
-  /* Location of the image */
-  background-image: url(../img/fameopedia_background.jpg);
+  font-family: 'Roboto','Helvetica', Tahoma;
+  font-size: 14px;
+  background: #371115 url(../img/background.jpg) top center no-repeat;
+  color: #FFF;
+  padding-top: 50px;
 
-  /* Image is centered vertically and horizontally at all times */
-  background-position: center center;
-
-  /* Image doesn't repeat */
-  background-repeat: no-repeat;
-
-  /* Makes the image fixed in the viewport so that it doesn't move when
-     the content height is greater than the image height */
-  background-attachment: fixed;
-
-  /* This is what makes the background image rescale based on its container's size */
-  background-size: contain;
-
-  /* Pick a solid background color that will be displayed while the background image is loading */
-  background-color:dimgrey;
-
-  /* SHORTHAND CSS NOTATION
-   * background: url(background-photo.jpg) center center cover no-repeat fixed;
-   */
-
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
-
-/* For mobile devices */
-@media only screen and (max-width: 767px) {
-  body {
-    /* The file size of this background image is 93% smaller
-     * to improve page load speed on mobile internet connections */
-    background-image: url(images/background-photo-mobile-devices.jpg);
-  }
-	}
