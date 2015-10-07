@@ -3,8 +3,8 @@ html {
   min-height: 100%;
 }
 body {
-  font-family: 'Roboto','Helvetica', Tahoma;
-  font-size: 14px;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
   background: #371115 url(../img/background.jpg) top center no-repeat;
   color: #FFF;
   padding-top: 50px;
@@ -14,6 +14,8 @@ body {
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+    padding-bottom: 50px;
+    text-align: center;
 }
 /*navbar*/
 /*Strip the ul of padding and list styling*/
@@ -46,7 +48,7 @@ li a {
 
 /*Hover state for top level links*/
 li:hover a {
-  background: #19c589;
+  background-color: dodgerblue;
 }
 
 /*Style for dropdown links*/
@@ -59,7 +61,7 @@ li:hover ul a {
 
 /*Hover state for dropdown links*/
 li:hover ul a:hover {
-  background: #19c589;
+  background-color: dodgerblue;
   color: #fff;
 }
 
@@ -91,7 +93,7 @@ ul li a:hover + .hidden, .hidden:hover {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
   color: #fff;
-  background: #19c589;
+  background-color: dodgerblue;
   text-align: center;
   padding: 10px 0;
   display: none;
@@ -129,3 +131,4 @@ input[type=checkbox]:checked ~ #menu{
     display:block;
   }
 }
+
