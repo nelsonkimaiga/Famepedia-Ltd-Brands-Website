@@ -34,7 +34,7 @@ ul {
   list-style-type:none;
   margin:0;
   padding:0;
-  position: absolute;
+  /*position: absolute;*/
 }
 
 /*Create a horizontal list with spacing*/
@@ -282,4 +282,15 @@ footer {
   position: relative;
   text-align: center;
   line-height: 1.8em;
+}
+
+/*style rules for introduction div*/
+#intro {
+  background: ;
+  /*height: 100%;*/
+  min-height: 400px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
