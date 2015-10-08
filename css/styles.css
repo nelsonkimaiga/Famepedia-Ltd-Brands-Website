@@ -224,3 +224,62 @@ header.scrolled {
   -webkit-transition: all ease 300ms;
   transition: all ease 300ms;
 }
+
+
+/*style rules for about section*/
+#about{
+  padding: 25px 0 100px 0;
+   -webkit-transition: none;
+  transition: none;
+  position: relative;
+  -webkit-animation: fadeIn 700ms 600ms;
+  -webkit-animation-fill-mode: backwards;
+}
+
+#about p {
+  margin-bottom: 40px;
+}
+
+/*style rules for contact form*/
+#contact{
+  background:#ffffff;
+  position: relative;
+  padding: 70px 0 120px 0; 
+}
+
+#contact form {
+  opacity: 1;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+  text-align: center;
+  }
+
+#contact form input,
+#contact form textarea {
+  width: 100%;
+  max-width: 500px;
+  border: none;
+  background: #efefef;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+
+/*style rules for footer*/
+footer {
+  background:;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  padding: 30px 0 160px 0;
+  position: relative;
+  text-align: center;
+  line-height: 1.8em;
+}
