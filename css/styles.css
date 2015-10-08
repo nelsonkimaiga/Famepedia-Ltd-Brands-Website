@@ -8,6 +8,11 @@ html, header, body, div, nav, footer {
   font: inherit;
   vertical-align: baseline;
 }
+/*style rules for body container*/
+html, body{
+  height: 100%;
+  width: 100%;
+}
 body {
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
@@ -39,6 +44,24 @@ li {
   margin-right: 1px;
 }
 
+/*style rules for all wrapper classes*/
+.wrapper{
+  margin: 0 auto;
+  padding: 0 30px;
+  width: 100%;
+  max-width: 1000px;
+}
+/*style rules for h2*/
+h2{
+  color: white;
+  display: table;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  margin: 0 auto 20px auto;
+  width: auto;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+}
 /*Style for menu links*/
 li a {
   display:block;
