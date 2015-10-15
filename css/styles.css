@@ -1,1 +1,13 @@
 /*body styles*/
+
+/*animated background*/
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+body,html { 
+margin:0; 
+padding: 0; 
+width: 100%;
+}
