@@ -9750,4 +9750,4 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
     .mdl-grid--no-spacing > .mdl-cell--12-col-desktop.mdl-cell--12-col-desktop {
       width: 100%; } }
 
-.twelve.columns                 { width: 100%; margin-left: 0; }
+.twelve.columns                 { width: 100%; margin-left: 2; }
