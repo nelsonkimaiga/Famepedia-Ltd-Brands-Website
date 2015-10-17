@@ -90,7 +90,7 @@ header. btn{
 }
 
 header a:hover, .about a:hover{
-background: dodgerblue;
+background: ;
 }
 
 header .btn, .services{
@@ -132,13 +132,19 @@ nav a{
 nav li:nth-child(2n+1) a:after {
   position: absolute;
   content: '';
-  top: 19.5px;
+  top: 19.5px;f
   right: -2.5px;
   z-index: 10;
   border-radius: 100%;
-  background: steelblue;
+  background: ;
   width: 5px;
   height: 5px;
+}
+
+nav{
+  padding-top: 20px;
+  top: 0px;
+  color: black;
 }
 /* SERVICES */
 
