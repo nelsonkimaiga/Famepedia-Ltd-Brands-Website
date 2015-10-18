@@ -473,3 +473,18 @@ ul.navbar-nav > .active > a{
     width: 100%;
     display: block;
 }
+
+
+
+
+/*-- Animation --*/
+
+.carousel .item.active .animated2 {
+    -webkit-animation: lightSpeedIn 1s ease-in 200ms both;
+    animation: lightSpeedIn 1s ease-in 200ms both;
+}
+
+.carousel .item.active .animated3 {
+    -webkit-animation: bounceInLeft 1s ease-in-out 500ms both;
+    animation: bounceInLeft 1s ease-in-out 500ms both;
+}
