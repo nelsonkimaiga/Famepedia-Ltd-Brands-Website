@@ -82,3 +82,94 @@ a{
     line-height: 50px;
     text-transform:uppercase;
 }
+.feature_title:hover{
+    cursor: pointer;
+    animation: pulse 1s ease-in-out 100ms both;
+    -webkit-animation:pulse 1s ease-in-out 100ms both;
+    -o-animation:pulse 1s ease-in-out 100ms both;
+}
+.feature_sub{
+    color:#000;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.btn-main{
+    padding: 10px 25px;
+    border-radius: 3px;
+    border: medium none;
+    vertical-align: middle;
+    cursor: pointer;
+    border:1px solid#333;
+    white-space: nowrap;
+    font-size: 16px;
+    line-height: 1.42857;
+    background: #333;
+    color:#fff;
+    font-weight: 700;
+    margin-top: 30px;
+    text-transform: capitalize!important;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+
+.btn-dark{
+    padding: 10px 25px;
+    border-radius: 3px;
+    border: medium none;
+    vertical-align: middle;
+    cursor: pointer;
+    border:1px solid#EE3B24;
+    white-space: nowrap;
+    font-size: 16px;
+    line-height: 1.42857;
+    font-weight: 700;
+    margin-top: 30px;
+    text-transform: capitalize!important;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.btn-dark:hover{
+    background: #EE3B24;
+    color: #fff;
+}
+.feature-tab,.team-items,.pricing,.single_blog ,#testimonial .owl-carousel .owl-wrapper,.contact_full{
+    margin-top: 40px;
+}
+#portfolio{
+    padding-bottom: 0px;
+}
+#footer{
+    padding: 0;
+}
+
+/*Divider*/
+.divider{
+    display: block;
+    margin: 20px auto;
+    content: "";
+    width: 70px;
+    height: 5px;
+    }
+
+#service,#pricing_table,#about,#team,#blog,#contact,#testimonial,#portfolio,#video-fact,#about-details {
+     padding-bottom: 130px;
+     padding-top:90px;
+}
+section{
+    /*padding:50px 0px;*/
+}
+.feature_header {
+    padding-top: 20px;
+}
+#video-fact{
+    padding-bottom: 90px!important;
+}
+#portfolio{
+    padding-bottom: 0px!important;
+}
+/* Custom Basic styles
