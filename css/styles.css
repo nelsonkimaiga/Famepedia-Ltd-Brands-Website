@@ -548,3 +548,15 @@ ul.navbar-nav > .active > a{
 .feature_content a:hover{
     text-decoration:none;
 }
+
+/*portfolio*/
+#portfolio{
+    background: #FBFAF8;
+}
+#isotope-filter{
+    padding:35px 0px;
+}
+#isotope-filter a{
+color: #fff!important;
+padding: 10px 15px;
+}
