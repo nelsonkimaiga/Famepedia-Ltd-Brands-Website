@@ -654,3 +654,54 @@ background: #fff;
 color: #222;
 padding: 8px 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contact form*/
+#contact{
+    background: #fff;
+}
+#contact .feature_title{}
+#contact .divider{color: #fff!important;}
+
+.left_contact{
+    color: #E7E7E7;
+    max-width:850px; 
+}
+
+.form-control{
+    box-shadow:none!important;
+}
+
+
+.form{    
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+    color: #7F7F7F;
+    padding: 15px 15px 12px;
+    border-radius:0px;
+    text-transform: capitalize!important;
+    padding-left: 70px;
+}
