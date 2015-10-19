@@ -841,3 +841,43 @@ padding: 8px 15px;
 .footer_menu_contact li span:hover {
     cursor:pointer;
 }
+
+.tags a{
+    display: block;
+    float: left;
+    margin: 3px;
+    padding: 8px 10px;
+    background: none repeat scroll 0% 0% #2C2C2C;
+    color: #C4C4C4;
+    font-size: 14px;
+    text-decoration: none;
+}
+.tags a:hover{
+    color: #fff;
+}
+.footer_social {
+    padding: 20px 0px;
+}
+.footer_social i {
+    width: 50px;
+    height: 50px;
+    padding: 14px;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 3px;
+}
+
+.footer_bottom {
+}
+.footer_bottom p {
+    font-size: 18px;
+    color: #C4C4C4;
+    margin: 25px 0px;
+}
+
+/*map section*/
+iframe {
+    height: 450px;
+    z-index: 1;
+    width: 100%;
+}
