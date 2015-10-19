@@ -23,6 +23,54 @@
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 
+  <script type="text/javascript">
+  function form(){
+       var name = document.contactForm.name;
+    var email = document.contactForm.email;
+    var phone = document.contactForm.phone;
+    var message = document.contactForm.message;
+
+    if (name.value == "")
+    {
+        window.alert("Please enter your name.");
+        name.focus();
+        return false;
+    }
+     if ((isNaN(email.value)))
+    {
+        window.alert("Please enter a valid e-mail address");
+        email.focus();
+        return false;
+    }
+    if (phone.value == "")
+    {
+        window.alert("Please enter your phone number.");
+        phone.focus();
+        return false;
+    }
+    if (email.value.indexOf("@", 0) < 0)
+    {
+        window.alert("Please enter a valid e-mail address.");
+        email.focus();
+        return false;
+    }
+    if (email.value.indexOf(".", 0) < 0)
+    {
+        window.alert("Please enter a valid e-mail address.");
+        email.focus();
+        return false;
+    }
+
+    if (message.value == "")
+    {
+        window.alert("Please provide a message.");
+        message.focus();
+        return false;
+    }
+    return true;
+}
+</script>
+
 </head>
 <body data-spy="scroll" data-target=".navbar-fixed-top">
 <header id = "section_header" class = "navbar-fixed-top main-nav" role="banner">
@@ -579,7 +627,7 @@
              <div class="contact_full">
                 <div class="col-md-6 left">
                     <div class="left_contact">
-                        <form action="role">
+        <form action="//formspree.io/pmuturi65@gmail.com" method="POST" onsubmit="return form();" name="contactForm" >
                             <div class="form-level">
                                 <input name="name" placeholder="Name" id="name"  value="" type="text" class="input-block">
                                 <span class="form-icon fa fa-user"></span>
@@ -589,7 +637,7 @@
                                 <span class="form-icon fa fa-envelope-o"></span>
                             </div>
                             <div class="form-level">
-                                <input name="name" placeholder="Phone" id="phone" class="input-block" value="" type="text">
+                                <input name="phone" placeholder="Phone" id="phone" class="input-block" value="" type="text">
                                 <span class="form-icon fa fa-phone"></span>
                             </div>
                         </form>
@@ -598,7 +646,7 @@
 
                 <div class="col-md-6 right">
                     <div class="form-level">
-                        <textarea name="" id="messege"  rows="5" class="textarea-block" placeholder="message"></textarea>
+                        <textarea name="" id="message"  rows="5" class="textarea-block" placeholder="message"></textarea>
                         <span class="form-icon fa fa-pencil"></span>
                     </div>
                 </div>
