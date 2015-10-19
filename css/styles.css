@@ -560,3 +560,97 @@ ul.navbar-nav > .active > a{
 color: #fff!important;
 padding: 10px 15px;
 }
+
+#portfolio{
+}
+.portfolio-wrap{
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    transition: height 450ms ease-out 0s;
+    -webkit-transition: height 450ms ease-out 0s;
+    -o-transition: height 450ms ease-out 0s;
+}
+.single-portfolio{
+    display: block;
+    overflow: hidden;
+    padding: 0px;
+    float:left;
+    
+}
+.single-portfolio figure{
+   padding: 0px;
+}
+.single-portfolio img{
+   display: block;
+   width: 100%;
+   height: auto!important;
+
+}
+
+.single-portfolio:hover figcaption{
+    opacity:1;
+    -webkit-transition: transform 0.35s ease 0s;
+    -o-transition: transform 0.35s ease 0s;
+    transition: transform 0.35s ease 0s;
+   -webkit-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    cursor: pointer;
+}
+
+.single-portfolio:hover .single-portfolio img{
+    opacity:.6;
+}
+.single-portfolio figcaption{
+    bottom: 0px;
+    height: 60%;
+    width: 100%;
+    color: #222;
+    padding: 12px 15px;
+    -webkit-transition: transform 0.35s ease 0s;
+    -o-transition: transform 0.35s ease 0s;
+    transition: transform 0.35s ease 0s;
+    -webkit-transform: translate3d(0px, 100%, 0px);
+    -ms-transform: translate3d(0px, 100%, 0px);
+    -o-transform: translate3d(0px, 100%, 0px);
+    transform: translate3d(0px, 100%, 0px);
+    position: absolute;
+    opacity: 0;
+
+}
+
+.single-portfolio figcaption .description{
+    text-transform: none;
+    font-size: 90%;
+    padding-top: 50px;
+    text-align: left;
+}
+.single-portfolio figcaption h5,.single-portfolio figcaption p{
+    margin: 10px 0px;
+}
+.single-portfolio figcaption h5{
+    float: left;
+}
+
+figcaption .links{
+    float: right;
+}
+
+figcaption .links a{
+   -webkit-transition: transform 0.35s ease 0s;
+   -o-transition: transform 0.35s ease 0s;
+   transition: transform 0.35s ease 0s;
+   
+-webkit-transform: translate3d(0px, 200%, 0px);
+-ms-transform: translate3d(0px, 200%, 0px);
+-o-transform: translate3d(0px, 200%, 0px);
+transform: translate3d(0px, 200%, 0px);
+text-decoration: none;
+background: #fff;
+color: #222;
+padding: 8px 15px;
+}
